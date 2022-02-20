@@ -9,17 +9,17 @@ let personelMovieDB = {
 };
 
 
-let first = prompt('Один из последних ваших фильмов');
-let second = prompt('На сколько его оцените');
-let first2 = prompt('Один из последних ваших фильмов');
-let second2 = prompt('На сколько его оцените');
+let a = prompt('Один из последних ваших фильмов');
+let b = prompt('На сколько его оцените');
+let c = prompt('Один из последних ваших фильмов');
+let d = prompt('На сколько его оцените');
 
 /*for(i = 0; i < 2; i++){
     let first = prompt('Один из последних ваших фильмов');
     let second = prompt('На сколько его оцените');
 };*/
 
-personelMovieDB.movies[first] = second;
-personelMovieDB.movies[first2] = second2;
+personelMovieDB.movies[a] = b;
+personelMovieDB.movies[c] = d;
 console.log(personelMovieDB);
-console.log(movie);
+
